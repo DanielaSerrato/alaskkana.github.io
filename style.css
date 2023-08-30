@@ -39,7 +39,7 @@ text-align: center;
   padding-right:4%;
 }
 
-@media (orientation: portrait) {
+@media (max-width: 768px) {
     .contenedor {
         max-width: 90%; /* Adjust the value for smaller screens in portrait orientation */
     }
