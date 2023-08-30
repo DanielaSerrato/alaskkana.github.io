@@ -1,6 +1,7 @@
 /* Estilos generales */
 body {
     font-family: Arial, sans-serif;
+    color:#203759;
     margin: 0;
     padding: 0;
     display: flex;
@@ -44,6 +45,7 @@ h1 {
     margin: 0 auto 1rem; /* Centers the logo and adds spacing below */
     max-width: 100px; /* Adjust the maximum width of the logo */
     height: auto;
+  
 }
 
 .redes-sociales a {
