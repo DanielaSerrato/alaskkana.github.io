@@ -23,8 +23,22 @@ body {
 
 .wrapper {
   text-align: center;
-  max-width: 36%;
+  max-width: 35%;
 }
+
+@media (max-width: 1200px) {
+  .wrapper {
+    max-width: 50%; /* Adjust the value for smaller screens in portrait orientation */
+  }
+}
+
+@media (max-width: 768px) {
+  .wrapper {
+    max-width: 85%; /* Adjust the value for smaller screens in portrait orientation */
+  }
+}
+
+
 .contenedor {
   background-color: white;
   padding: 3rem;
@@ -42,11 +56,7 @@ body {
   padding-right: 4%;
 }
 
-@media (max-width: 768px) {
-  .wrapper {
-    max-width: 85%; /* Adjust the value for smaller screens in portrait orientation */
-  }
-}
+
 
 h1 {
   font-size: 1.5rem;
