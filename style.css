@@ -77,11 +77,6 @@ h1 {
 .footer {
   text-align: center;
   padding: 0.1rem 0;
-  color: rgba(
-    85,
-    85,
-    85,
-    0.5
-  ); /* Change the rgba value to adjust the color and transparency */
+  color: rgba(currentColor, 0.5);
   font-size: 0.8rem;
 }
