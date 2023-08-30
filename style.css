@@ -25,6 +25,13 @@ body {
     max-width: 40%; /* Adjust the value as needed */
 }
 
+.logo-icon {
+    display: block;
+    margin: 0 auto 1rem; /* Centers the logo and adds spacing below */
+    max-width: 50%; /* Adjust the maximum width of the logo */
+  
+}
+
 @media (orientation: portrait) {
     .contenedor {
         max-width: 90%; /* Adjust the value for smaller screens in portrait orientation */
@@ -40,13 +47,7 @@ h1 {
     margin-bottom: 3rem;
 }
 
-.logo-icon {
-    display: block;
-    margin: 0 auto 1rem; /* Centers the logo and adds spacing below */
-    max-width: 100px; /* Adjust the maximum width of the logo */
-    height: auto;
-  
-}
+
 
 .redes-sociales a {
     display: inline-block;
