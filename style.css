@@ -40,8 +40,8 @@ text-align: center;
 }
 
 @media (max-width: 768px) {
-    .contenedor {
-        max-width: 90%; /* Adjust the value for smaller screens in portrait orientation */
+    .wrapper {
+        max-width: 85%; /* Adjust the value for smaller screens in portrait orientation */
     }
    }
 
