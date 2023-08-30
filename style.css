@@ -17,55 +17,53 @@ body {
 }
 
 .contenedor {
-    text-align: center;
+text-align: center;
     background-color: white;
-    padding: 2rem;
+    padding: 3rem;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-    max-width: 40%; /* Adjust the value as needed */
+    max-width: 36%;
 }
 
 .logo-icon {
     display: block;
-    margin: 0 auto 1rem; /* Centers the logo and adds spacing below */
-    max-width: 50%; /* Adjust the maximum width of the logo */
-  
+    margin: 0rem 1rem 1rem 1rem;
+}
+
+.logo-icon img {
+  width: 25%;
+  padding-right:4%;
 }
 
 @media (orientation: portrait) {
     .contenedor {
         max-width: 90%; /* Adjust the value for smaller screens in portrait orientation */
     }
+   }
 
 h1 {
-    color: #333;
 }
 
 /* Iconos de redes sociales */
 .redes-sociales {
-    margin-top: 3rem;
-    margin-bottom: 3rem;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
 }
-
 
 
 .redes-sociales a {
     display: inline-block;
     width: 40px;
     height: 40px;
-    background-color: #333;
     margin: 0 0.5rem;
-    border-radius: 50%;
+    background-size: cover;
 }
 
 .icono-facebook {
-    background-image: url('icono-facebook.png');
-}
+    background-image: url('https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/facebook.svg');
 
-.icono-twitter {
-    background-image: url('icono-twitter.png');
 }
 
 .icono-instagram {
-    background-image: url('icono-instagram.png');
+    background-image: url('https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/instagram.svg');
 }
