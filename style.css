@@ -40,7 +40,7 @@ h1 {
     margin-bottom: 3rem;
 }
 
-.logo {
+.logo-icon {
     display: block;
     margin: 0 auto 1rem; /* Centers the logo and adds spacing below */
     max-width: 100px; /* Adjust the maximum width of the logo */
