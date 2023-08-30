@@ -16,13 +16,17 @@ body {
                     linear-gradient(0deg, #A0BAE1 0%, #F3D1BC 91%);
 }
 
-.contenedor {
+.wrapper{
 text-align: center;
+    max-width: 36%;
+  
+  
+}
+.contenedor {
     background-color: white;
     padding: 3rem;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-    max-width: 36%;
 }
 
 .logo-icon {
@@ -66,4 +70,11 @@ h1 {
 
 .icono-instagram {
     background-image: url('https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/instagram.svg');
+}
+
+.footer {
+    text-align: center;
+    padding: 0.1rem 0;
+color: rgba(85, 85, 85, 0.5); /* Change the rgba value to adjust the color and transparency */
+    font-size: 0.8rem;
 }
