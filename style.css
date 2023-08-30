@@ -21,6 +21,14 @@ body {
     padding: 2rem;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    max-width: 80%; /* Set an initial responsive max-width */
+}
+
+/* Media query for screens with a maximum width of 768px */
+@media (max-width: 768px) {
+    .contenedor {
+        max-width: 90%; /* Adjust the value for smaller screens */
+    }
 }
 
 h1 {
